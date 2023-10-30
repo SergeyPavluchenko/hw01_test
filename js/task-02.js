@@ -18,3 +18,10 @@ const arrIngredients = ingredients.map((ing) => {
 });
 
 ingredient.append(...arrIngredients);
+
+// const li = ingredients
+//   .map((ingredient) => `<li classList="item">${ingredient}</li>`)
+//   .join("");
+// console.log(li);
+
+// ingredient.insertAdjacentHTML("beforeend", li);
